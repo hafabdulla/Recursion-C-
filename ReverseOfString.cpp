@@ -13,7 +13,7 @@ char print_reverse(char a[], int i)
 
     else
     {
-        // Recursively call print_reverse, moving forward in the string (i + 1).
+        // Recursively calls print_reverse, moving forward in the string (i + 1).
         // This continues until we hit the base case.
         // You can imagine it like stacking up "calls" as we walk forward through the string,
         // and when we reach the end, we "unwind" by returning back through those calls.
